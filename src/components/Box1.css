@@ -1,0 +1,35 @@
+.cardCon{
+    width: 20%;
+    height: 45%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10px;
+    margin: 5px 15px;
+    flex-wrap: wrap;
+}
+.imags{
+    width: 90%;
+    height: 60%;
+}
+.imags img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+.textWrap{
+    width: 90%;
+    height: 40%;
+    /* background-color: tomato; */
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.textWrap > h2{
+    font-size: 15px;
+}
+a{
+    color: turquoise;
+}
